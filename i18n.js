@@ -43,6 +43,8 @@
       "faq.q3": "Lowe 的学校信息会出错吗？", "faq.a3": "Lowe 只依据学校官网回答学校问题并注明来源；尚未公布的信息会如实说明，不会猜测。重要日期请向老师或国际交流处确认。",
       "faq.q4": "我的数据安全吗？", "faq.a4": "Lowe 只存储最少的信息，日志中从不记录你输入的内容，你可以下载或删除全部数据。详见应用内的隐私政策。",
       "faq.q5": "只适用于湖南工学院吗？", "faq.a5": "翻译、写作、课堂翻译和中文学习适用于在华的所有学生。学校问答和通知目前覆盖湖南工学院，可以扩展到更多高校。",
+      "j.title": "Lowe 的成长历程", "j.1": "第一个 Lowe 网页版上线，至今仍在运行：", "j.2": "微信小程序通过微信审核。", "j.3": "ICP 备案获批；课堂实时翻译上线。", "j.4": "请假使用学校官方表格，附手写签名和证明。", "j.5": "Windows 版上架 Microsoft Store；安卓版发布。", "j.6": "Lowe 课堂全面升级，推出 Lowe 高级版，以及如今支撑所有 Lowe 应用的 LOWE 引擎。",
+      "get.vercel": "在国外或作为备用：最初的 Lowe 网页版（lowe-app-nine.vercel.app）",
       "get.title": "获取 Lowe", "get.mp": "微信：扫描此码打开 Lowe 小程序", "get.web": "网页版：任何手机或电脑都能用（iPhone：分享 → 添加到主屏幕）", "get.win": "Windows：在 Microsoft Store 搜索“LOWE TEKAM”", "get.android": "安卓：下载应用",
       "get.note": "当前网址为临时地址，学校认可的域名正在配置中；本页面会始终链接到正确的地址。",
       "foot.made": "由湖南工学院的一名国际学生开发，服务在华的所有国际学生。", "foot.data": "Lowe 使用的开放数据：CC-CEDICT、HSK 词表（complete-hsk-vocabulary）、Make Me a Hanzi、Tatoeba。"
@@ -88,6 +90,8 @@
       "faq.q3": "Lowe peut-il se tromper sur l'école ?", "faq.a3": "Lowe répond aux questions sur l'école uniquement à partir des pages officielles et montre la source. Quand une information n'est pas publiée, il le dit au lieu de deviner. Vérifiez toujours les dates importantes auprès de votre enseignant ou du bureau international.",
       "faq.q4": "Mes données sont-elles en sécurité ?", "faq.a4": "Lowe garde le minimum, n'enregistre jamais ce que vous tapez dans ses journaux, et vous permet de télécharger ou de supprimer toutes vos données. Voir la page de confidentialité dans l'application.",
       "faq.q5": "Seulement pour le HNIT ?", "faq.a5": "Traduction, rédaction, traduction des cours et apprentissage du chinois servent à tout étudiant en Chine. Les réponses et avis de l'école couvrent pour l'instant le Hunan Institute of Technology ; d'autres universités peuvent être ajoutées.",
+      "j.title": "Comment Lowe a grandi", "j.1": "La première application web Lowe est mise en ligne, et elle fonctionne toujours :", "j.2": "Le mini-programme WeChat passe la vérification de WeChat.", "j.3": "Enregistrement ICP approuvé ; la traduction des cours en direct est lancée.", "j.4": "Demandes de congé sur le formulaire de l'école, avec signature manuscrite et justificatif.", "j.5": "L'application Windows sur le Microsoft Store ; l'application Android.", "j.6": "Lowe Classroom repensé, Lowe Premium, et le LOWE Engine qui fait tourner toutes les applications Lowe.",
+      "get.vercel": "Hors de Chine, ou en secours : l'application web Lowe d'origine (lowe-app-nine.vercel.app)",
       "get.title": "Obtenir Lowe", "get.mp": "WeChat : scannez ce code pour ouvrir le mini-programme Lowe", "get.web": "Application web : sur tout téléphone ou ordinateur (sur iPhone : Partager → Sur l'écran d'accueil)", "get.win": "Windows : cherchez « LOWE TEKAM » dans le Microsoft Store", "get.android": "Android : télécharger l'application",
       "get.note": "L'adresse web est provisoire, le temps que le domaine approuvé soit configuré ; cette page renverra toujours vers la bonne.",
       "foot.made": "Créé par un étudiant international du Hunan Institute of Technology, pour les étudiants internationaux partout en Chine.", "foot.data": "Données ouvertes utilisées par Lowe : CC-CEDICT, listes HSK (complete-hsk-vocabulary), Make Me a Hanzi, Tatoeba."
