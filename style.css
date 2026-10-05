@@ -109,3 +109,7 @@ footer .cols a:not(.brand){display:block;text-decoration:none;color:var(--muted)
 footer .cols a:hover{color:var(--ink)}
 footer .small{font-size:13px;margin:4px 0}
 .page-head + section{padding-top:24px}
+.eyebrow{margin:0 0 10px;color:var(--seal);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.highlights{list-style:none;padding:0;margin:20px 0 0;display:flex;flex-wrap:wrap;gap:10px}
+.highlights li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--ink2)}
+.highlights li::before{content:"✓ ";color:var(--jade);font-weight:700}
