@@ -5,20 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lowe: the assistant for international students in China</title>
 <meta name="description" content="Lowe helps international students in China translate, write polite messages to teachers, find official school information, follow classes taught in Chinese and handle paperwork. Built by an international student at Hunan Institute of Technology (湖南工学院).">
-<meta name="keywords" content="Lowe, Lowe app, international students China, HNIT, Hunan Institute of Technology, 湖南工学院, 留学生, translator, class translation, Chinese HSK, study in China">
 <meta name="theme-color" content="#20293A">
 <link rel="canonical" href="https://sanzoked-lab.github.io/lowe/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lowe: Say it. They'll understand.">
-<meta property="og:description" content="The assistant for international students in China: translation, messages to teachers, official school answers, live class translation, paperwork guides.">
-<meta property="og:image" content="img/translate.webp">
+<meta property="og:site_name" content="Lowe">
+<meta property="og:title" content="Lowe: the assistant for international students in China">
+<meta property="og:description" content="Lowe helps international students in China translate, write polite messages to teachers, find official school information, follow classes taught in Chinese and handle paperwork. Built by an international student at Hunan Institute of Technology (湖南工学院).">
+<meta property="og:url" content="https://sanzoked-lab.github.io/lowe/">
+<meta property="og:image" content="https://sanzoked-lab.github.io/lowe/img/translate.webp">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23AA3B2B'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='white' font-family='serif'%3E%E6%A1%A5%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "Lowe",
   "alternateName": ["Lowe app", "LOWE TEKAM"],
+  "url": "https://sanzoked-lab.github.io/lowe/",
   "applicationCategory": "EducationalApplication",
   "operatingSystem": "WeChat Mini Program, Web, Windows, Android, iOS (web)",
   "description": "The assistant for international students in China: translation in 11 languages, polite messages to teachers, official school information with sources, live class translation, leave requests and paperwork guides.",
@@ -27,100 +30,32 @@
   "creator": { "@type": "Person", "name": "Lowe (江树臣)" }
 }
 </script>
-<style>
-:root{--ink:#20293A;--ink2:#4A5468;--muted:#6B7385;--paper:#EDE7DA;--card:#FBF8F2;--line:#DDD5C4;--seal:#AA3B2B;--jade:#3F6656;--font:"Inter",system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;--serif:"Noto Serif SC","Songti SC","SimSun",Georgia,serif}
-@media (prefers-color-scheme:dark){:root{--ink:#ECE7DC;--ink2:#C3C8D3;--muted:#9AA2B2;--paper:#121824;--card:#1A2130;--line:#2D3647;--seal:#E06A5A;--jade:#7FB39C}}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--font)}
-a{color:inherit}img{max-width:100%;display:block}
-.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
-header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-header.top .wrap{display:flex;align-items:center;gap:12px;height:60px}
-.seal{width:34px;height:34px;border-radius:5px;background:#AA3B2B;color:#fff;display:grid;place-items:center;font:20px/1 var(--serif);flex:none}
-.brand{font:600 19px var(--serif);text-decoration:none}
-nav.links{display:flex;gap:18px;margin-left:auto;font-size:15px}
-nav.links a{text-decoration:none;color:var(--ink2)}
-.lang{display:flex;gap:4px;margin-left:12px}
-.lang button{border:1px solid var(--line);background:transparent;border-radius:999px;padding:3px 10px;cursor:pointer;font:inherit;font-size:13px;color:var(--ink2)}
-.lang button[aria-pressed=true]{background:var(--ink);color:var(--card);border-color:var(--ink)}
-@media (max-width:760px){nav.links{display:none}.lang{margin-left:auto}}
-section{padding:64px 0}
-h1{font:600 clamp(34px,6vw,56px)/1.1 var(--serif);margin:0 0 16px}
-h2{font:600 clamp(26px,4vw,36px)/1.2 var(--serif);margin:0 0 12px}
-h3{font:600 19px/1.3 var(--font);margin:0 0 6px}
-.lead{font-size:clamp(17px,2.2vw,20px);color:var(--ink2);max-width:640px}
-.hero{padding:72px 0 48px}
-.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
-@media (max-width:860px){.hero .grid{grid-template-columns:1fr}}
-.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600;border:1px solid var(--line);background:var(--card)}
-.btn.primary{background:#AA3B2B;color:#fff;border-color:#AA3B2B}
-.phone{border-radius:28px;border:8px solid var(--ink);overflow:hidden;max-width:300px;margin:0 auto;box-shadow:0 20px 40px rgba(0,0,0,.15)}
-.facts{display:flex;flex-wrap:wrap;gap:24px;margin-top:28px;color:var(--ink2)}
-.facts b{display:block;font:600 26px var(--font);color:var(--ink)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
-.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:28px}
-.card .ic{font-size:26px;margin-bottom:8px}
-.card p{margin:0;color:var(--ink2);font-size:15px}
-.alt{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.story{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start}
-@media (max-width:700px){.story{grid-template-columns:1fr}}
-.journey{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:10px}
-.journey li{display:grid;grid-template-columns:92px 1fr;gap:12px;align-items:baseline;font-size:15px;color:var(--ink2)}
-.journey b{font-family:var(--serif);color:var(--seal);font-size:15px}
-.journey a{color:var(--ink)}
-.avatar{width:96px;height:96px;border-radius:50%;background:var(--jade);color:#fff;display:grid;place-items:center;font:600 34px var(--serif)}
-blockquote{margin:16px 0 0;padding-left:16px;border-left:3px solid #AA3B2B;font:italic 18px/1.5 var(--serif);color:var(--ink2)}
-.shots{display:grid;grid-auto-flow:column;grid-auto-columns:200px;gap:16px;overflow-x:auto;padding:8px 2px 16px;scroll-snap-type:x mandatory;margin-top:24px}
-.shots figure{margin:0;scroll-snap-align:start}
-.shots img{border-radius:18px;border:1px solid var(--line)}
-.shots figcaption{font-size:13px;color:var(--muted);margin-top:6px;text-align:center}
-.steps{counter-reset:s;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:24px}
-.steps .card::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--card);font-weight:600;margin-bottom:10px}
-.plans{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:24px}
-.plan{text-align:center}
-.plan .price{font:600 32px var(--font)}
-.plan.best{border-color:#AA3B2B;box-shadow:0 0 0 2px #AA3B2B inset}
-.tag{display:inline-block;background:#AA3B2B;color:#fff;font-size:12px;padding:2px 8px;border-radius:999px;margin-bottom:8px}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}
-@media (max-width:760px){.split{grid-template-columns:1fr}}
-ul.check{list-style:none;padding:0;margin:0}
-ul.check li{padding-left:26px;position:relative;margin:6px 0;color:var(--ink2)}
-ul.check li::before{content:"✓";position:absolute;left:0;color:var(--jade);font-weight:700}
-details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
-summary{cursor:pointer;font-weight:600}
-details p{color:var(--ink2);margin:10px 0 0}
-.get{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
-@media (max-width:700px){.get{grid-template-columns:1fr}}
-.qr{width:180px;border-radius:12px;background:#fff;padding:8px}
-footer{padding:36px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
-</style>
 </head>
 <body>
-
+<a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
 <header class="top"><div class="wrap">
-  <div class="seal" aria-hidden="true">桥</div>
-  <a class="brand" href="#top">Lowe</a>
-  <nav class="links" aria-label="Sections">
-    <a href="#features" data-i18n="nav.features">Features</a>
-    <a href="#how" data-i18n="nav.how">How it works</a>
-    <a href="#teachers" data-i18n="nav.teachers">Teachers &amp; schools</a>
-    <a href="#premium" data-i18n="nav.premium">Premium</a>
-    <a href="#get" data-i18n="nav.get">Get Lowe</a>
+  <a class="brand" href="index.html" aria-label="Lowe home"><span class="seal" aria-hidden="true">桥</span>Lowe</a>
+  <nav class="links" aria-label="Main">
+    <a href="features.html" data-i18n="nav.features">Features</a>
+    <a href="teachers.html" data-i18n="nav.teachers">Teachers &amp; schools</a>
+    <a href="premium.html" data-i18n="nav.premium">Premium</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="faq.html" data-i18n="nav.faq">FAQ</a>
   </nav>
+  <a class="btn primary small" href="download.html" data-i18n="nav.get">Get Lowe</a>
   <div class="lang" role="group" aria-label="Language">
     <button data-lang="en" aria-pressed="true">EN</button><button data-lang="zh" aria-pressed="false">中文</button><button data-lang="fr" aria-pressed="false">FR</button>
   </div>
 </div></header>
 
-<main id="top">
+<main id="main">
 <section class="hero"><div class="wrap grid">
   <div>
     <h1 data-i18n="hero.title">Say it. They'll understand.</h1>
     <p class="lead" data-i18n="hero.lead">Lowe is the assistant for international students in China. Translate anything, write politely to your teachers, get official school answers with sources, follow classes taught in Chinese, and handle paperwork, all in your own language.</p>
     <div class="cta">
       <a class="btn primary" href="https://express-gjix-319480-4-1495803607.sh.run.tcloudbase.com/" data-i18n="hero.open">Open Lowe in your browser →</a>
-      <a class="btn" href="#get" data-i18n="hero.get">Mini program, Windows, Android</a>
+      <a class="btn" href="download.html" data-i18n="hero.get">Mini program, Windows, Android</a>
     </div>
     <div class="facts">
       <div><b>11</b><span data-i18n="facts.langs">languages</span></div>
@@ -131,131 +66,70 @@ footer{padding:36px 0;color:var(--muted);font-size:14px;border-top:1px solid var
   <div class="phone"><img src="img/translate.webp" alt="Lowe translating a message to a teacher into polite Chinese" width="600" height="1300"></div>
 </div></section>
 
-<section class="alt" id="story"><div class="wrap story">
+<section class="alt"><div class="wrap">
+  <h2 data-i18n="home.k.title">One app for students, teachers and the school</h2>
+  <div class="cards three">
+    <a class="card link" href="features.html"><div class="ic">🎒</div><h3 data-i18n="home.k1.t">For students</h3><p data-i18n="home.k1.d">Translation, messages to teachers, school answers with sources, live class translation, Chinese study and paperwork guides.</p><span class="more" data-i18n="home.more">Learn more →</span></a>
+    <a class="card link" href="teachers.html"><div class="ic">🧑‍🏫</div><h3 data-i18n="home.k2.t">For teachers and schools</h3><p data-i18n="home.k2.d">Leave approvals in one tap, slides every student understands, live translation in class, and usage statistics.</p><span class="more" data-i18n="home.more">Learn more →</span></a>
+    <a class="card link" href="premium.html"><div class="ic">👑</div><h3 data-i18n="home.k3.t">Lowe Premium</h3><p data-i18n="home.k3.d">14 days free for every new student. Then unlimited live class, photo translation and an AI tutor, from ¥9.9 a month.</p><span class="more" data-i18n="home.more">Learn more →</span></a>
+  </div>
+</div></section>
+
+<section><div class="wrap story">
   <div class="avatar" aria-hidden="true">江</div>
   <div>
-    <h2 data-i18n="story.title">Why Lowe exists</h2>
-    <p data-i18n="story.p1">I'm Lowe (江树臣), an international student from Cameroon studying software engineering at Hunan Institute of Technology (湖南工学院). I speak English and French, and when I arrived in China almost everything around me was in Chinese: notices from the international office, messages to teachers, the bank, the hospital, and even the lessons themselves.</p>
-    <p data-i18n="story.p2">Translation apps translate words, but they don't know how to write politely to a teacher, where the school published the resit dates, or what to bring for a residence permit. So I built the assistant I needed, and shared it with the students around me.</p>
-    <blockquote data-i18n="story.quote">"No student should miss an exam, a deadline or a lesson because it was written in a language they are still learning."</blockquote>
-    <h3 style="margin-top:26px" data-i18n="j.title">How Lowe grew</h3>
-    <ol class="journey">
-      <li><b>22 Sep 2026</b><span><span data-i18n="j.1">The first Lowe web app goes online, and it is still running today:</span> <a href="https://lowe-app-nine.vercel.app/">lowe-app-nine.vercel.app</a></span></li>
-      <li><b>28 Sep</b><span data-i18n="j.2">The WeChat mini program passes WeChat's review.</span></li>
-      <li><b>29 Sep</b><span data-i18n="j.3">ICP filing approved; live class translation goes live.</span></li>
-      <li><b>1 Oct</b><span data-i18n="j.4">Leave requests on the school's form, with a hand signature and proof.</span></li>
-      <li><b>Oct</b><span data-i18n="j.5">The Windows app on the Microsoft Store; the Android app.</span></li>
-      <li><b>4–5 Oct</b><span data-i18n="j.6">Lowe Classroom redesigned, Lowe Premium, and the LOWE Engine that now runs every Lowe app.</span></li>
-    </ol>
+    <h2 data-i18n="home.story.title">Made by a student who lived it</h2>
+    <p class="lead" data-i18n="home.story.d">I'm Lowe (江树臣), an international student from Cameroon at Hunan Institute of Technology. I built the assistant I needed when everything around me was in Chinese, then shared it with the students around me.</p>
+    <a class="btn" href="about.html" data-i18n="home.story.link">Read the story →</a>
   </div>
 </div></section>
 
-<section id="features"><div class="wrap">
-  <h2 data-i18n="features.title">Everything a student needs, in one place</h2>
-  <p class="lead" data-i18n="features.lead">Built around the real moments of student life in China.</p>
-  <div class="cards">
-    <div class="card"><div class="ic">🔤</div><h3 data-i18n="f.translate.t">Translate anything</h3><p data-i18n="f.translate.d">Between any two of 11 languages, with pinyin. Type, speak, or take a photo of a notice. Adjusts the tone to the situation: teacher, bank, hospital, landlord.</p></div>
-    <div class="card"><div class="ic">✉️</div><h3 data-i18n="f.draft.t">Write to your teacher</h3><p data-i18n="f.draft.d">Say what you need in your language; Lowe writes a polite Chinese message, with a back-translation so you know exactly what you send.</p></div>
-    <div class="card"><div class="ic">🏫</div><h3 data-i18n="f.ask.t">Ask about your school</h3><p data-i18n="f.ask.d">Answers only from the school's official websites, with the source. If it hasn't been published, Lowe says so instead of guessing.</p></div>
-    <div class="card"><div class="ic">📡</div><h3 data-i18n="f.live.t">Understand your classes</h3><p data-i18n="f.live.d">Hold your phone toward the teacher: Lowe shows what is said in Chinese, with pinyin and a translation, sentence by sentence. Keep the class to read again later.</p></div>
-    <div class="card"><div class="ic">🎓</div><h3 data-i18n="f.classroom.t">Study your teacher's slides</h3><p data-i18n="f.classroom.d">Teachers share their lesson slides; you get them in your language, with explanations and short quizzes, for every major.</p></div>
-    <div class="card"><div class="ic">📋</div><h3 data-i18n="f.notices.t">Never miss a notice</h3><p data-i18n="f.notices.d">The international office's notices and your teachers' announcements, translated, in one list.</p></div>
-    <div class="card"><div class="ic">🗓️</div><h3 data-i18n="f.leave.t">Ask for leave properly</h3><p data-i18n="f.leave.d">Fill the school's official leave form on your phone, sign with your finger, attach proof. Your teacher approves it in one tap.</p></div>
-    <div class="card"><div class="ic">📚</div><h3 data-i18n="f.learn.t">Learn Chinese</h3><p data-i18n="f.learn.d">HSK vocabulary with spaced review, a graded reader that shows which words are above your level, and a full dictionary.</p></div>
-    <div class="card"><div class="ic">🧾</div><h3 data-i18n="f.papers.t">Handle paperwork</h3><p data-i18n="f.papers.d">Step-by-step guides for the residence permit, a bank card, a SIM card, medical checks and more, so the first weeks in China are easier.</p></div>
-    <div class="card"><div class="ic">🛟</div><h3 data-i18n="f.safety.t">Help when it matters</h3><p data-i18n="f.safety.d">Campus security, the international office and emergency numbers, with ready-made phrases to show a taxi driver, a pharmacist or a doctor.</p></div>
-  </div>
-  <div class="shots" aria-label="Screens of the app">
-    <figure><img src="img/ask.webp" alt="Ask: answers with official sources" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.ask">Ask, with sources</figcaption></figure>
-    <figure><img src="img/live.webp" alt="Live class translation" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.live">Live class translation</figcaption></figure>
-    <figure><img src="img/draft.webp" alt="Polite message to a teacher" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.draft">Message to a teacher</figcaption></figure>
-    <figure><img src="img/leave.webp" alt="Official leave request" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.leave">Leave request</figcaption></figure>
-    <figure><img src="img/notices.webp" alt="School notices" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.notices">School notices</figcaption></figure>
-    <figure><img src="img/hsk.webp" alt="HSK study" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.hsk">HSK study</figcaption></figure>
-    <figure><img src="img/papers.webp" alt="Paperwork guides" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.papers">Paperwork guides</figcaption></figure>
-    <figure><img src="img/safety.webp" alt="Safety and emergency" loading="lazy" width="400" height="866"><figcaption data-i18n="shot.safety">Safety</figcaption></figure>
-  </div>
+<section class="alt"><div class="wrap">
+  <h2 data-i18n="home.trust.title">Built to be trusted</h2>
+  <ul class="trust">
+    <li><b>✓</b><span data-i18n="home.trust1">ICP-registered WeChat mini program</span></li>
+    <li><b>✓</b><span data-i18n="home.trust2">Works in China without a VPN</span></li>
+    <li><b>✓</b><span data-i18n="home.trust3">School answers from official sources, never guessed</span></li>
+    <li><b>✓</b><span data-i18n="home.trust4">Never logs what you type; delete your data any time</span></li>
+  </ul>
 </div></section>
 
-<section class="alt" id="how"><div class="wrap">
-  <h2 data-i18n="how.title">How Lowe works</h2>
-  <div class="steps">
-    <div class="card"><h3 data-i18n="how.s1.t">You ask, in your language</h3><p data-i18n="how.s1.d">Type, speak or take a photo. Lowe answers in your language: English, French, Arabic, Russian and seven more.</p></div>
-    <div class="card"><h3 data-i18n="how.s2.t">Lowe checks real sources</h3><p data-i18n="how.s2.d">School questions are answered only from the school's official pages, read every night. Each answer shows where it comes from.</p></div>
-    <div class="card"><h3 data-i18n="how.s3.t">AI writes it clearly</h3><p data-i18n="how.s3.d">Chinese AI models (DeepSeek, Doubao) translate and explain, tuned for politeness and for students. It works in China without a VPN.</p></div>
-    <div class="card"><h3 data-i18n="how.s4.t">Your data stays yours</h3><p data-i18n="how.s4.d">Lowe stores only what it needs, never logs what you type, and you can download or delete everything about you at any time.</p></div>
-  </div>
-</div></section>
-
-<section id="teachers"><div class="wrap">
-  <h2 data-i18n="t.title">For teachers and schools</h2>
-  <div class="split">
-    <div class="card">
-      <h3 data-i18n="t.teachers">Teachers</h3>
-      <ul class="check">
-        <li data-i18n="t.l1">A dashboard in Chinese: approve leave requests in one tap, with the official form ready to print</li>
-        <li data-i18n="t.l2">Share lesson slides once; every student gets them explained in their own language</li>
-        <li data-i18n="t.l3">Live translation of your lesson for the international students in the room</li>
-        <li data-i18n="t.l4">Post announcements that every student reads in their language</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3 data-i18n="t.schools">Schools</h3>
-      <ul class="check">
-        <li data-i18n="t.s1">International students follow lessons and rules better, from the first week</li>
-        <li data-i18n="t.s2">Less repeated questions to the international office: answers come from your own published notices</li>
-        <li data-i18n="t.s3">Usage statistics without personal content, and a campus licence for all your international students</li>
-        <li data-i18n="t.s4">Runs on Chinese cloud services; the mini program is ICP-filed</li>
-      </ul>
-    </div>
-  </div>
-</div></section>
-
-<section class="alt" id="premium"><div class="wrap">
-  <h2 data-i18n="p.title">Free to start. Premium when you can't do without it.</h2>
-  <p class="lead" data-i18n="p.lead">Every new student gets 14 days of Premium free. After that, the essentials stay free forever, and Premium unlocks the features that make a whole semester easier.</p>
-  <div class="split">
-    <div class="card"><h3 data-i18n="p.free">Free, always</h3>
-      <ul class="check"><li data-i18n="p.f1">Translation, messages to teachers, school answers (daily allowance)</li><li data-i18n="p.f2">Notices, leave requests, timetable, safety</li><li data-i18n="p.f3">Phrasebook, culture tips, dictionary, paperwork guides</li></ul></div>
-    <div class="card"><h3 data-i18n="p.prem">Premium</h3>
-      <ul class="check"><li data-i18n="p.p1">Unlimited live class translation and saved classes</li><li data-i18n="p.p2">Photo translation without limits</li><li data-i18n="p.p3">Your teacher's slides explained, with quizzes and an AI tutor</li><li data-i18n="p.p4">A much higher daily AI allowance</li></ul></div>
-  </div>
-  <div class="plans">
-    <div class="card plan"><div data-i18n="p.month">Monthly</div><div class="price">¥9.9</div><div class="muted" data-i18n="p.permonth">per month</div></div>
-    <div class="card plan best"><span class="tag" data-i18n="p.popular">Most popular</span><div data-i18n="p.semester">Semester</div><div class="price">¥29</div><div data-i18n="p.persem">5 months</div></div>
-    <div class="card plan"><div data-i18n="p.year">Year</div><div class="price">¥49</div><div data-i18n="p.peryear">12 months</div></div>
-  </div>
-  <p class="lead" style="margin-top:20px" data-i18n="p.how">Pay in the web app by scanning a WeChat Pay or Alipay code; Premium is switched on as soon as the payment is confirmed. Universities can buy a campus licence for all their international students.</p>
-</div></section>
-
-<section id="faq"><div class="wrap">
-  <h2 data-i18n="faq.title">Questions</h2>
-  <details><summary data-i18n="faq.q1">Do I need a VPN?</summary><p data-i18n="faq.a1">No. Lowe runs on Chinese cloud services and Chinese AI models, so it works normally in mainland China.</p></details>
-  <details><summary data-i18n="faq.q2">Which languages?</summary><p data-i18n="faq.a2">English, Chinese, French, Spanish, Portuguese, Arabic, Russian, Korean, Japanese, Vietnamese and German.</p></details>
-  <details><summary data-i18n="faq.q3">Can Lowe be wrong about school information?</summary><p data-i18n="faq.a3">Lowe answers school questions only from the school's official pages and shows the source. When something hasn't been published, it says so rather than guessing. Always check important dates with your teacher or the international office.</p></details>
-  <details><summary data-i18n="faq.q4">Is my data safe?</summary><p data-i18n="faq.a4">Lowe stores the minimum, never records what you type in its logs, and lets you download or delete all your data. See the privacy page in the app.</p></details>
-  <details><summary data-i18n="faq.q5">Is it only for HNIT?</summary><p data-i18n="faq.a5">Translation, writing, live class translation and Chinese learning work for any student in China. School answers and notices currently cover Hunan Institute of Technology; more universities can be added.</p></details>
-</div></section>
-
-<section class="alt" id="get"><div class="wrap get">
-  <img class="qr" src="img/qr-miniprogram.png" alt="Scan with WeChat to open the Lowe mini program" width="360" height="360">
+<section class="band"><div class="wrap band-in">
   <div>
-    <h2 data-i18n="get.title">Get Lowe</h2>
-    <ul class="check">
-      <li data-i18n="get.mp">WeChat: scan this code to open the Lowe mini program</li>
-      <li><a href="https://express-gjix-319480-4-1495803607.sh.run.tcloudbase.com/" data-i18n="get.web">Web app: works on any phone or computer (on iPhone: Share → Add to Home Screen)</a></li>
-      <li><a href="https://apps.microsoft.com/search?query=LOWE%20TEKAM" data-i18n="get.win">Windows: search "LOWE TEKAM" in the Microsoft Store</a></li>
-      <li><a href="https://express-gjix-319480-4-1495803607.sh.run.tcloudbase.com/download/" data-i18n="get.android">Android: download the app</a></li>
-      <li><a href="https://lowe-app-nine.vercel.app/" data-i18n="get.vercel">Outside China, or as a backup: the original Lowe web app (lowe-app-nine.vercel.app)</a></li>
-    </ul>
-    <p class="muted" style="font-size:14px" data-i18n="get.note">The web address is a temporary one while the school-approved domain is being set up; this page will always link to the right one.</p>
+    <h2 data-i18n="home.cta.title">Start in 10 seconds</h2>
+    <p data-i18n="home.cta.d">Scan the code with WeChat, or open Lowe in your browser.</p>
+    <a class="btn primary" href="download.html" data-i18n="home.cta.btn">All the ways to get Lowe →</a>
   </div>
+  <img class="qr" src="img/qr-miniprogram.png" alt="Scan with WeChat to open the Lowe mini program" width="360" height="360">
 </div></section>
 </main>
 
 <footer><div class="wrap">
-  <p>© 2026 Lowe · <span data-i18n="foot.made">Made by an international student at Hunan Institute of Technology, for international students everywhere in China.</span></p>
-  <p data-i18n="foot.data">Open data used by Lowe: CC-CEDICT, HSK word lists (complete-hsk-vocabulary), Make Me a Hanzi, Tatoeba.</p>
+  <div class="cols">
+    <div>
+      <a class="brand" href="index.html"><span class="seal" aria-hidden="true">桥</span>Lowe</a>
+      <p data-i18n="foot.tag">The assistant for international students in China.</p>
+    </div>
+    <div>
+      <h4 data-i18n="foot.c1">Lowe</h4>
+      <a href="features.html" data-i18n="nav.features">Features</a>
+      <a href="premium.html" data-i18n="nav.premium">Premium</a>
+      <a href="download.html" data-i18n="nav.get">Get Lowe</a>
+    </div>
+    <div>
+      <h4 data-i18n="foot.c2">For schools</h4>
+      <a href="teachers.html" data-i18n="nav.teachers">Teachers &amp; schools</a>
+      <a href="faq.html" data-i18n="nav.faq">FAQ</a>
+    </div>
+    <div>
+      <h4 data-i18n="foot.c3">About</h4>
+      <a href="about.html" data-i18n="foot.story">Our story</a>
+      <a href="https://express-gjix-319480-4-1495803607.sh.run.tcloudbase.com/" data-i18n="foot.web">Open the web app</a>
+      <a href="https://lowe-app-nine.vercel.app/" data-i18n="foot.first">The first Lowe app (Vercel)</a>
+    </div>
+  </div>
+  <p class="small">© 2026 Lowe · <span data-i18n="foot.made">Made by an international student at Hunan Institute of Technology, for international students everywhere in China.</span></p>
+  <p class="small" data-i18n="foot.data">Open data used by Lowe: CC-CEDICT, HSK word lists (complete-hsk-vocabulary), Make Me a Hanzi, Tatoeba.</p>
 </div></footer>
 
 <script src="i18n.js"></script>

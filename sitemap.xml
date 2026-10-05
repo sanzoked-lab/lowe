@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://sanzoked-lab.github.io/lowe/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://sanzoked-lab.github.io/lowe/features.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://sanzoked-lab.github.io/lowe/teachers.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://sanzoked-lab.github.io/lowe/premium.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://sanzoked-lab.github.io/lowe/about.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://sanzoked-lab.github.io/lowe/faq.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://sanzoked-lab.github.io/lowe/download.html</loc><changefreq>weekly</changefreq></url>
 </urlset>
