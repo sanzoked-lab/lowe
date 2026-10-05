@@ -2,7 +2,7 @@
 @media (prefers-color-scheme:dark){:root{--ink:#ECE7DC;--ink2:#C3C8D3;--muted:#9AA2B2;--paper:#121824;--card:#1A2130;--line:#2D3647;--seal:#E06A5A;--jade:#7FB39C}}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--font)}
-a{color:inherit}img{max-width:100%;display:block}
+a{color:inherit}img{max-width:100%;height:auto;display:block}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 header.top .wrap{display:flex;align-items:center;gap:12px;height:60px}
@@ -41,7 +41,7 @@ h3{font:600 19px/1.3 var(--font);margin:0 0 6px}
 .journey a{color:var(--ink)}
 .avatar{width:96px;height:96px;border-radius:50%;background:var(--jade);color:#fff;display:grid;place-items:center;font:600 34px var(--serif)}
 blockquote{margin:16px 0 0;padding-left:16px;border-left:3px solid #AA3B2B;font:italic 18px/1.5 var(--serif);color:var(--ink2)}
-.shots{display:grid;grid-auto-flow:column;grid-auto-columns:200px;gap:16px;overflow-x:auto;padding:8px 2px 16px;scroll-snap-type:x mandatory;margin-top:24px}
+.shots{display:grid;grid-auto-flow:column;grid-auto-columns:240px;gap:16px;overflow-x:auto;padding:8px 2px 16px;scroll-snap-type:x mandatory;margin-top:24px}
 .shots figure{margin:0;scroll-snap-align:start}
 .shots img{border-radius:18px;border:1px solid var(--line)}
 .shots figcaption{font-size:13px;color:var(--muted);margin-top:6px;text-align:center}
@@ -94,7 +94,7 @@ nav.links a[aria-current=page]{color:var(--ink);border-bottom-color:var(--seal);
 .band h2{color:var(--card)}.band p{color:var(--card);opacity:.85}
 .band-in{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center}
 @media (max-width:700px){.band-in{grid-template-columns:1fr}}
-.dash{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:20px}
+.dash{display:grid;gap:34px;grid-template-columns:1fr;margin-top:20px;max-width:960px}
 .dash figure{margin:0}.dash img{border-radius:12px;border:1px solid var(--line)}
 .dash figcaption{font-size:14px;color:var(--muted);margin-top:8px}
 .callout{text-align:left;padding:32px}
