@@ -108,13 +108,13 @@
     });
     document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
     document.querySelectorAll(".lang button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === lang)); });
-    try { localStorage.setItem("lowe.site.lang", lang); } catch (e) { /* private mode */ }
+    try { localStorage.setItem("lowe.site.lang", lang); } catch { /* private mode */ }
   }
   document.querySelectorAll(".lang button").forEach(function (b) {
     b.addEventListener("click", function () { apply(b.getAttribute("data-lang")); });
   });
   var saved = null;
-  try { saved = localStorage.getItem("lowe.site.lang"); } catch (e) { /* private mode */ }
+  try { saved = localStorage.getItem("lowe.site.lang"); } catch { /* private mode */ }
   var guess = saved || ((navigator.language || "").indexOf("zh") === 0 ? "zh" : (navigator.language || "").indexOf("fr") === 0 ? "fr" : "en");
   if (guess !== "en") apply(guess);
 })();
