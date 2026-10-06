@@ -138,6 +138,8 @@
       "get.h1": "一个账号，所有设备通用",
       "get.h2": "免费开始",
       "get.h3": "在中国大陆可正常使用",
+      "t.dash5": "今日：下一节课、待审批的请假、课程动态", "t.dash6": "二维码考勤：二维码每 20 秒更换，谁到了、谁没到一目了然",
+      "t.l6": "用每 20 秒更换的二维码考勤，并导出名单", "t.l7": "教师专属应用「Lowe 教师」：今日课程、审批与提醒",
       "get.title": "获取 Lowe", "get.mp": "微信：扫描此码打开 Lowe 小程序", "get.web": "网页版：任何手机或电脑都能用（iPhone：分享 → 添加到主屏幕）", "get.win": "Windows：在 Microsoft Store 搜索“LOWE TEKAM”", "get.android": "安卓：下载应用",
       "get.note": "当前网址为临时地址，学校认可的域名正在配置中；本页面会始终链接到正确的地址。",
       "foot.made": "由湖南工学院的一名国际学生开发，服务在华的所有国际学生。", "foot.data": "Lowe 使用的开放数据：CC-CEDICT、HSK 词表（complete-hsk-vocabulary）、Make Me a Hanzi、Tatoeba。"
@@ -278,6 +280,8 @@
       "get.h1": "Un compte sur tous vos appareils",
       "get.h2": "Gratuit pour commencer",
       "get.h3": "Fonctionne en Chine continentale",
+      "t.dash5": "Aujourd'hui : le prochain cours, les congés à approuver, l'activité des cours", "t.dash6": "L'appel par QR code : le code change toutes les 20 secondes ; qui est là, qui manque",
+      "t.l6": "Faire l'appel avec un QR code qui change toutes les 20 secondes, et exporter la liste", "t.l7": "Votre propre application, Lowe 教师 : cours du jour, approbations et rappels",
       "get.title": "Obtenir Lowe", "get.mp": "WeChat : scannez ce code pour ouvrir le mini-programme Lowe", "get.web": "Application web : sur tout téléphone ou ordinateur (sur iPhone : Partager → Sur l'écran d'accueil)", "get.win": "Windows : cherchez « LOWE TEKAM » dans le Microsoft Store", "get.android": "Android : télécharger l'application",
       "get.note": "L'adresse web est provisoire, le temps que le domaine approuvé soit configuré ; cette page renverra toujours vers la bonne.",
       "foot.made": "Créé par un étudiant international du Hunan Institute of Technology, pour les étudiants internationaux partout en Chine.", "foot.data": "Données ouvertes utilisées par Lowe : CC-CEDICT, listes HSK (complete-hsk-vocabulary), Make Me a Hanzi, Tatoeba."
