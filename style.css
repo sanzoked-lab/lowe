@@ -102,7 +102,7 @@ nav.links a[aria-current=page]{color:var(--ink);border-bottom-color:var(--seal);
 .note{font-size:14px;margin-top:18px}
 .muted{color:var(--muted)}
 .plans{margin-bottom:24px}
-footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:24px;margin-bottom:20px}
+footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1.3fr;gap:24px;margin-bottom:20px}
 @media (max-width:700px){footer .cols{grid-template-columns:1fr 1fr}}
 footer h4{margin:0 0 8px;color:var(--ink);font-size:14px}
 footer .cols a:not(.brand){display:block;text-decoration:none;color:var(--muted);margin:4px 0}

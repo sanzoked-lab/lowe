@@ -94,7 +94,7 @@
       "p.b4.t": "点击“我已付款”",
       "p.b4.d": "确认收款后立即开通高级版，通常在几小时内。",
       "p.campus.title": "校园授权",
-      "p.campus.d": "高校可在免费试点学期之后，为全体国际学生开通高级版，并获得教师工具和使用统计。",
+      "p.campus.d": "高校可在免费试点学期之后，为全体国际学生开通高级版，并获得教师工具和使用统计：每校每年 5,000 元，另加每名留学生 29 元（比学生个人价低 40%）。",
       "p.campus.btn": "面向教师与学校 →",
       "about.lead": "Lowe 由一名国际学生为国际学生打造。",
       "about.open.title": "基于开放数据",
@@ -138,10 +138,12 @@
       "get.h1": "一个账号，所有设备通用",
       "get.h2": "免费开始",
       "get.h3": "在中国大陆可正常使用",
+      "t.dash7": "公告自动译成每位学生的语言：谁已读一目了然，一键提醒未读的学生", "t.dash8": "答疑时间：选了您课程的学生都能看到在何时何地找到您", "t.dash9": "期末报告：每位学生的出勤、课件、测验和 AI 助教使用情况，可打印或导出 Excel",
       "t.dash5": "今日：下一节课、待审批的请假、课程动态", "t.dash6": "二维码考勤：二维码每 20 秒更换，谁到了、谁没到一目了然",
       "t.l6": "用每 20 秒更换的二维码考勤，并导出名单", "t.l7": "教师专属应用「Lowe 教师」：今日课程、审批与提醒",
       "get.title": "获取 Lowe", "get.mp": "微信：扫描此码打开 Lowe 小程序", "get.web": "网页版：任何手机或电脑都能用（iPhone：分享 → 添加到主屏幕）", "get.win": "Windows：在 Microsoft Store 搜索“LOWE TEKAM”", "get.android": "安卓：下载应用",
       "get.note": "当前网址为临时地址，学校认可的域名正在配置中；本页面会始终链接到正确的地址。",
+      "foot.c4": "联系我们", "foot.cn": "在中国境内，163 邮箱最可靠。",
       "foot.made": "由湖南工学院的一名国际学生开发，服务在华的所有国际学生。", "foot.data": "Lowe 使用的开放数据：CC-CEDICT、HSK 词表（complete-hsk-vocabulary）、Make Me a Hanzi、Tatoeba。"
     },
     fr: {
@@ -236,7 +238,7 @@
       "p.b4.t": "Touchez « J'ai payé »",
       "p.b4.d": "Premium s'active dès que le paiement est confirmé, en général en quelques heures.",
       "p.campus.title": "Licence campus",
-      "p.campus.d": "Les universités peuvent offrir Premium à tous leurs étudiants internationaux, avec les outils enseignants et les statistiques, après un semestre pilote gratuit.",
+      "p.campus.d": "Les universités peuvent offrir Premium à tous leurs étudiants internationaux, avec les outils enseignants et les statistiques, après un semestre pilote gratuit : 5 000 ¥ par école plus 29 ¥ par étudiant international et par an (40 % de moins que le prix étudiant).",
       "p.campus.btn": "Pour les enseignants et les écoles →",
       "about.lead": "Lowe a été créé par un étudiant international, pour les étudiants internationaux.",
       "about.open.title": "Construit sur des données ouvertes",
@@ -280,10 +282,12 @@
       "get.h1": "Un compte sur tous vos appareils",
       "get.h2": "Gratuit pour commencer",
       "get.h3": "Fonctionne en Chine continentale",
+      "t.dash7": "Annonces dans la langue de chaque étudiant : voyez qui les a lues et relancez les autres en un geste", "t.dash8": "Permanences : les étudiants de vos cours voient quand et où vous trouver", "t.dash9": "Bilan de fin de semestre : présence, diapositives, quiz et tuteur IA par étudiant ; à imprimer ou exporter vers Excel",
       "t.dash5": "Aujourd'hui : le prochain cours, les congés à approuver, l'activité des cours", "t.dash6": "L'appel par QR code : le code change toutes les 20 secondes ; qui est là, qui manque",
       "t.l6": "Faire l'appel avec un QR code qui change toutes les 20 secondes, et exporter la liste", "t.l7": "Votre propre application, Lowe 教师 : cours du jour, approbations et rappels",
       "get.title": "Obtenir Lowe", "get.mp": "WeChat : scannez ce code pour ouvrir le mini-programme Lowe", "get.web": "Application web : sur tout téléphone ou ordinateur (sur iPhone : Partager → Sur l'écran d'accueil)", "get.win": "Windows : cherchez « LOWE TEKAM » dans le Microsoft Store", "get.android": "Android : télécharger l'application",
       "get.note": "L'adresse web est provisoire, le temps que le domaine approuvé soit configuré ; cette page renverra toujours vers la bonne.",
+      "foot.c4": "Contact", "foot.cn": "En Chine, l'adresse 163 est la plus fiable.",
       "foot.made": "Créé par un étudiant international du Hunan Institute of Technology, pour les étudiants internationaux partout en Chine.", "foot.data": "Données ouvertes utilisées par Lowe : CC-CEDICT, listes HSK (complete-hsk-vocabulary), Make Me a Hanzi, Tatoeba."
     }
   };
