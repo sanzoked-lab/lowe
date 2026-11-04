@@ -42,7 +42,7 @@
       "faq.q2": "支持哪些语言？", "faq.a2": "英语、中文、法语、西班牙语、葡萄牙语、阿拉伯语、俄语、韩语、日语、越南语和德语。",
       "faq.q3": "Lowe 的学校信息会出错吗？", "faq.a3": "Lowe 只依据学校官网回答学校问题并注明来源；尚未公布的信息会如实说明，不会猜测。重要日期请向老师或国际交流处确认。",
       "faq.q4": "我的数据安全吗？", "faq.a4": "Lowe 只存储最少的信息，日志中从不记录你输入的内容，你可以下载或删除全部数据。详见应用内的隐私政策。",
-      "faq.q5": "只适用于湖南工学院吗？", "faq.a5": "翻译、写作、课堂翻译和中文学习适用于在华的所有学生。学校问答和通知目前覆盖湖南工学院，可以扩展到更多高校。",
+      "faq.q5": "Lowe 覆盖哪些学校？", "faq.a5": "翻译、写作、课堂翻译和中文学习适用于在华的所有学生。学校问答和通知目前覆盖湖南工学院、南华大学和衡阳师范学院，可以扩展到更多高校。",
       "j.title": "Lowe 的成长历程", "j.1": "第一个 Lowe 网页版上线，至今仍在运行：", "j.2": "微信小程序通过微信审核。", "j.3": "ICP 备案获批；课堂实时翻译上线。", "j.4": "请假使用学校官方表格，附手写签名和证明。", "j.5": "Windows 版上架 Microsoft Store；安卓版发布。", "j.6": "Lowe 课堂全面升级，推出 Lowe 高级版，以及如今支撑所有 Lowe 应用的 LOWE 引擎。",
       "get.vercel": "在国外或作为备用：最初的 Lowe 网页版（lowe-app-nine.vercel.app）",
       "nav.about": "关于",
@@ -96,6 +96,17 @@
       "p.campus.title": "校园授权",
       "p.campus.d": "高校可在免费试点学期之后，为全体国际学生开通高级版，并获得教师工具和使用统计：每校每年 5,000 元，另加每名留学生 29 元（比学生个人价低 40%）。",
       "p.campus.btn": "面向教师与学校 →",
+      "cr.title": "Lowe 课堂：上传 → 发布 → 学习 → 验证",
+      "cr.lead": "老师上传自己的课件；学生只打开已讲内容，用母语学习并自测，老师看到每一步。",
+      "cr.s1.t": "1 · 上传", "cr.s1.d": "PDF 或 PPTX 在浏览器里直接变成幻灯片——每课最多 200 页，无需另装软件。",
+      "cr.s2.t": "2 · 发布", "cr.s2.d": "标记“已讲到第 N 页”，下次上课前学生只能看到这一部分。",
+      "cr.s3.t": "3 · 学习与自测", "cr.s3.d": "学生用 AI 助教复习（讲解、总结、出题、提问），完成老师出题或 AI 草拟的测验，自动评分并附解析。",
+      "cr.s4.t": "4 · 验证", "cr.s4.d": "老师查看每名学生的查看页数、测验、得分与 AI 使用，并叠加考勤、请假和期末 CSV 报告。",
+      "pay.title": "价格一目了然",
+      "pay.free": "免费", "pay.free.d": "通知、安全、办事指南、课表、HSK、词典；AI 每日额度",
+      "pay.pop": "最多人选择", "pay.prem": "会员", "pay.prem.d": "课堂同传与拍照翻译不限量、AI 助教与课堂助教；14 天试用",
+      "pay.campus": "高校授权", "pay.campus.d": "每校每年，含免费试点学期；教师工具、考勤、请假、报告",
+      "pay.btn": "查看完整价格 →",
       "about.lead": "Lowe 由一名国际学生为国际学生打造。",
       "about.open.title": "基于开放数据",
       "faq.lead": "学生、教师和学校最常问的问题。",
@@ -186,7 +197,7 @@
       "faq.q2": "Quelles langues ?", "faq.a2": "Anglais, chinois, français, espagnol, portugais, arabe, russe, coréen, japonais, vietnamien et allemand.",
       "faq.q3": "Lowe peut-il se tromper sur l'école ?", "faq.a3": "Lowe répond aux questions sur l'école uniquement à partir des pages officielles et montre la source. Quand une information n'est pas publiée, il le dit au lieu de deviner. Vérifiez toujours les dates importantes auprès de votre enseignant ou du bureau international.",
       "faq.q4": "Mes données sont-elles en sécurité ?", "faq.a4": "Lowe garde le minimum, n'enregistre jamais ce que vous tapez dans ses journaux, et vous permet de télécharger ou de supprimer toutes vos données. Voir la page de confidentialité dans l'application.",
-      "faq.q5": "Seulement pour le HNIT ?", "faq.a5": "Traduction, rédaction, traduction des cours et apprentissage du chinois servent à tout étudiant en Chine. Les réponses et avis de l'école couvrent pour l'instant le Hunan Institute of Technology ; d'autres universités peuvent être ajoutées.",
+      "faq.q5": "Quelles universités Lowe couvre-t-il ?", "faq.a5": "Traduction, rédaction, traduction des cours et apprentissage du chinois servent à tout étudiant en Chine. Les réponses et avis de l'école couvrent le Hunan Institute of Technology, l'Université du Sud de la Chine et l'Université normale de Hengyang ; d'autres universités peuvent être ajoutées.",
       "j.title": "Comment Lowe a grandi", "j.1": "La première application web Lowe est mise en ligne, et elle fonctionne toujours :", "j.2": "Le mini-programme WeChat passe la vérification de WeChat.", "j.3": "Enregistrement ICP approuvé ; la traduction des cours en direct est lancée.", "j.4": "Demandes de congé sur le formulaire de l'école, avec signature manuscrite et justificatif.", "j.5": "L'application Windows sur le Microsoft Store ; l'application Android.", "j.6": "Lowe Classroom repensé, Lowe Premium, et le LOWE Engine qui fait tourner toutes les applications Lowe.",
       "get.vercel": "Hors de Chine, ou en secours : l'application web Lowe d'origine (lowe-app-nine.vercel.app)",
       "nav.about": "À propos",
@@ -240,6 +251,17 @@
       "p.campus.title": "Licence campus",
       "p.campus.d": "Les universités peuvent offrir Premium à tous leurs étudiants internationaux, avec les outils enseignants et les statistiques, après un semestre pilote gratuit : 5 000 ¥ par école plus 29 ¥ par étudiant international et par an (40 % de moins que le prix étudiant).",
       "p.campus.btn": "Pour les enseignants et les écoles →",
+      "cr.title": "Dans Lowe Classroom : téléverser → publier → étudier → vérifier",
+      "cr.lead": "Les enseignants téléversent leurs diapositives ; les étudiants n'ouvrent que ce qui a été couvert, étudient dans leur langue, se testent, et l'enseignant voit chaque étape.",
+      "cr.s1.t": "1 · Téléverser", "cr.s1.d": "Un PDF ou PPTX devient des diapositives dans le navigateur — jusqu'à 200 par leçon, sans logiciel.",
+      "cr.s2.t": "2 · Publier", "cr.s2.d": "Marquez « couvert jusqu'à la diapositive N ». Les étudiants ne voient que cette partie jusqu'au cours suivant.",
+      "cr.s3.t": "3 · Étudier et se tester", "cr.s3.d": "Les étudiants révisent avec un tuteur IA (expliquer, résumer, me tester, poser une question) et passent des quiz rédigés par l'enseignant ou proposés par l'IA, corrigés automatiquement avec explications.",
+      "cr.s4.t": "4 · Vérifier", "cr.s4.d": "L'enseignant voit les diapositives vues, les quiz, les scores et l'usage du tuteur par étudiant — avec présences, congés et un rapport CSV de fin de semestre.",
+      "pay.title": "Ce que vous payez exactement",
+      "pay.free": "Gratuit", "pay.free.d": "Avis, sécurité, démarches, emploi du temps, HSK, dictionnaire ; IA avec quota quotidien",
+      "pay.pop": "Le plus choisi", "pay.prem": "Premium", "pay.prem.d": "Traduction en direct et photo illimitées, tuteur IA et tuteur de classe ; essai de 14 jours",
+      "pay.campus": "Campus", "pay.campus.d": "Par école et par an, semestre pilote gratuit ; outils enseignants, présences, congés, rapports",
+      "pay.btn": "Voir tous les tarifs →",
       "about.lead": "Lowe a été créé par un étudiant international, pour les étudiants internationaux.",
       "about.open.title": "Construit sur des données ouvertes",
       "faq.lead": "Les réponses à ce que les étudiants, les enseignants et les écoles nous demandent le plus.",
@@ -291,6 +313,70 @@
       "foot.made": "Créé par un étudiant international du Hunan Institute of Technology, pour les étudiants internationaux partout en Chine.", "foot.data": "Données ouvertes utilisées par Lowe : CC-CEDICT, listes HSK (complete-hsk-vocabulary), Make Me a Hanzi, Tatoeba."
     }
   };
+
+  // Multi-university release, 19 October 2026 (see site/_build.mjs): new copy for the three
+  // universities, and the strings whose English changed with it.
+  Object.assign(T.zh, {
+    "hero.lead": "Lowe 是衡阳三所高校国际学生的助手——湖南工学院、南华大学和衡阳师范学院。用你自己的语言翻译任何内容、礼貌地给老师写信、获取带来源的学校官方答案、听懂中文授课、办理各种手续。",
+    "facts.schools": "所高校",
+    "home.story.d": "我是江树臣（Lowe），来自喀麦隆，在湖南工学院留学。我把在中国处处是中文时最需要的助手做了出来，先分享给同学，现在南华大学和衡阳师范学院的学生也在用。",
+    "home.trust5": "每所高校只看到自己的通知、答案和指南",
+    "f.ask.d": "只根据你所在高校的官方网站回答，并显示来源；如果尚未公布，Lowe 会直接说明，绝不猜测。",
+    "f.notices.d": "你所在高校国际处的通知和老师的公告，已翻译，集中在一个列表，并可筛选“留学生相关”。",
+    "f.leave.d": "在手机上填写你所在高校的请假表，手写签名，附上证明；老师一键审批。",
+    "f.papers.d": "居留许可、银行卡、手机卡和缴纳学费的分步指南，包含你所在高校的收费标准、办公室和缴费步骤。",
+    "f.school.t": "三所高校，一个账号",
+    "f.school.d": "打开 Lowe 时选择你的学校。湖南工学院、南华大学和衡阳师范学院各有自己的问答、通知、安全联系方式、指南、学费标准和专业，绝不混用。",
+    "f.update.t": "每晚自动更新",
+    "f.update.d": "Lowe 每晚重新读取各高校的官方网站，新通知和变更的规定第二天早上就能被问到，并附上原始页面。",
+    "how.s2.d": "学校问题只根据你所在高校的官方页面回答，每晚更新；每个答案都显示来源。",
+    "t.lead": "Lowe 服务于整所学校，而不只是学生：老师少做重复工作，国际学生从第一周就能跟上。每所高校都有自己的空间——教师、学生、公告、课表和知识库互不混用。",
+    "t.l8": "用学校邮箱注册：湖南工学院教师可立即使用，南华大学和衡阳师范学院教师需管理员确认",
+    "t.s5": "每所高校设有学校管理员（由 Lowe 所有者指定），只能看到本校教师和学生",
+    "story.p3": "后来其他高校的学生也来问。现在 Lowe 服务衡阳的三所高校——湖南工学院、南华大学和衡阳师范学院。每所高校都有自己的知识库，只来自本校官方页面，所以关于学费、截止日期或请假表的答案永远对应正确的学校。",
+    "story.p4": "Lowe 每晚重新读取各高校的网站。新的通知、变更的收费表和更新的规定，第二天早上就能回答，并附上出处——助手随学校一起更新，而不是过期。",
+    "j.7": "南华大学和衡阳师范学院加入 Lowe：各自的官方来源、知识库、学费指南、通知和按学校隔离的问答。"
+  });
+  Object.assign(T.fr, {
+    "hero.lead": "Lowe est l'assistant des étudiants internationaux de trois universités de Hengyang — Hunan Institute of Technology, l'Université du Sud de la Chine et l'Université normale de Hengyang. Traduisez tout, écrivez poliment à vos enseignants, obtenez des réponses officielles avec leurs sources, suivez les cours en chinois et gérez les démarches, dans votre langue.",
+    "facts.schools": "universités",
+    "home.story.d": "Je suis Lowe (江树臣), étudiant camerounais à Hunan Institute of Technology. J'ai créé l'assistant dont j'avais besoin quand tout était en chinois, je l'ai partagé avec mes camarades, et aujourd'hui des étudiants de l'Université du Sud de la Chine et de l'Université normale de Hengyang l'utilisent aussi.",
+    "home.trust5": "Chaque université ne voit que ses propres avis, réponses et guides",
+    "f.ask.d": "Des réponses uniquement tirées des sites officiels de votre université, avec la source. Si l'information n'est pas publiée, Lowe le dit au lieu de deviner.",
+    "f.notices.d": "Les avis du bureau international de votre université et les annonces de vos enseignants, traduits, dans une seule liste, avec le filtre « pour étudiants étrangers ».",
+    "f.leave.d": "Remplissez le formulaire de congé de votre université sur votre téléphone, signez au doigt, joignez un justificatif. Votre enseignant approuve en un geste.",
+    "f.papers.d": "Des guides pas à pas pour le titre de séjour, une carte bancaire, une carte SIM et le paiement des frais de scolarité, avec les tarifs, bureaux et étapes de paiement de votre université.",
+    "f.school.t": "Trois universités, un seul compte",
+    "f.school.d": "Choisissez votre université à l'ouverture de Lowe. HNIT, USC et HYNU ont chacun leurs réponses, avis, contacts d'urgence, guides, tarifs et filières — jamais mélangés.",
+    "f.update.t": "Mis à jour chaque nuit",
+    "f.update.d": "Lowe relit chaque nuit les sites officiels des universités : les nouveaux avis et les règles modifiées ont une réponse dès le lendemain matin, avec la page d'origine.",
+    "how.s2.d": "Les questions scolaires ne sont traitées qu'à partir des pages officielles de votre université, lues chaque nuit. Chaque réponse indique sa source.",
+    "t.lead": "Lowe sert toute l'école, pas seulement les étudiants : moins de travail répété pour le personnel, et des étudiants internationaux qui suivent dès la première semaine. Chaque université a son espace — enseignants, étudiants, annonces, emplois du temps et base de connaissances ne se mélangent jamais.",
+    "t.l8": "Inscrivez-vous avec l'e-mail de votre université : le personnel de HNIT commence tout de suite, les enseignants de USC et HYNU sont confirmés par l'administrateur",
+    "t.s5": "Un administrateur par université, nommé par le propriétaire de Lowe, qui ne voit que son propre personnel et ses étudiants",
+    "story.p3": "Puis des étudiants d'autres universités l'ont demandé. Lowe sert aujourd'hui trois universités de Hengyang — Hunan Institute of Technology, l'Université du Sud de la Chine et l'Université normale de Hengyang. Chacune a sa propre base de connaissances, construite uniquement à partir de ses pages officielles : une réponse sur les frais, une échéance ou un formulaire de congé concerne donc toujours la bonne université.",
+    "story.p4": "Chaque nuit, Lowe relit les sites des universités. Les nouveaux avis, les tarifs modifiés et les règles mises à jour ont une réponse dès le lendemain matin, avec la page d'origine — l'assistant évolue avec les écoles au lieu de vieillir.",
+    "j.7": "USC et HYNU rejoignent Lowe : leurs propres sources officielles, base de connaissances, guides de frais, avis et réponses propres à chaque université."
+  });
+
+  // Real figures and prices from the Hunan pitch decks (data as of 19 October 2026).
+  Object.assign(T.zh, {
+    "f.notices.d": "你所在高校国际处的通知和老师的公告，已翻译，集中在一个列表，并可筛选“留学生相关”。近 7 天的通知优先翻译成英文。",
+    "f.update.d": "Lowe 每晚重新读取三所高校的 12 个官方网站（目前共 2,643 页、7,779 个可检索段落），新通知和变更的规定第二天早上就能被问到，并附上原始页面。",
+    "p.campus.d": "高校可在免费试点学期之后，为全体国际学生开通高级版，并获得教师工具和使用统计：每校每年 10,000 元，另加每名留学生每年 29 元（比学生个人价低 40%）。教师账号随学校授权，不单独收费。",
+    "t.l9": "教师账号随校园授权提供，不单独收费",
+    "num.title": "Lowe 数据一览", "num.sources": "个官方网站，每晚更新", "num.pages": "页官方资料", "num.passages": "个可检索段落", "num.users": "名注册用户",
+    "num.note": "数据截至 2026 年 10 月 19 日，来自官网抓取统计和微信小程序后台。"
+  });
+  Object.assign(T.fr, {
+    "f.notices.d": "Les avis du bureau international de votre université et les annonces de vos enseignants, traduits, dans une seule liste, avec le filtre « pour étudiants étrangers ». Les avis des 7 derniers jours sont traduits en anglais en priorité.",
+    "f.update.d": "Lowe relit chaque nuit 12 sites officiels des trois universités (2 643 pages et 7 779 passages consultables à ce jour) : les nouveaux avis et les règles modifiées ont une réponse dès le lendemain matin, avec la page d'origine.",
+    "p.campus.d": "Les universités peuvent offrir Premium à tous leurs étudiants internationaux, avec les outils enseignants et les statistiques, après un semestre pilote gratuit : 10 000 ¥ par école plus 29 ¥ par étudiant international et par an (40 % de moins que le prix étudiant). Les comptes enseignants sont inclus sans frais supplémentaires.",
+    "t.l9": "Les comptes enseignants sont inclus dans la licence campus, sans frais supplémentaires",
+    "num.title": "Lowe en chiffres", "num.sources": "sites officiels lus chaque nuit", "num.pages": "pages officielles", "num.passages": "passages consultables", "num.users": "utilisateurs inscrits",
+    "num.note": "Chiffres au 19 octobre 2026, issus de l'indexation des sites et du tableau de bord du mini-programme WeChat."
+  });
+
   var original = {};
   var nodes = document.querySelectorAll("[data-i18n]");
   nodes.forEach(function (el) { original[el.getAttribute("data-i18n")] = el.textContent; });
